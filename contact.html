@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,340' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="slider/scripts/jquery-1.9.0.min.js"></script>
+		<script src="js/validations.js"></script>
+		<script>
+  			$(document).ready(function(){
+				$("#icon_menu").click(function(){
+					$(".menu ul").slideToggle(500);
+				});
+			});
+  		</script>
+	</head>
+	<body>
+	<div class="container">
+		<div class="outer">
+			<div class="inner" id="outtopbar">
+				<div class="topbar" style="position: relative;">
+					<div class="logo grid_3 col">
+						<span><a href="index.html">JUMPSTER</a></span>
+					</div> <!--End of logo-->
+					<div class="hidden">
+						<img src="images/iconmenu.png" id="icon_menu">
+					</div>
+					<div class="menu grid_9 col">
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="aboutus.html">ABOUT US</a></li>
+							<li><a href="#">FEATURES</a></li>
+							<li><a href="portfolio.html">PORTFOLIO</a></li>
+							<li><a href="#">GALLERY</a></li>
+							<li><a href="contact.html">CONTACT</a></li>
+						</ul>
+					</div> <!--End of menu-->
+					<div style="clear:both;"></div>
+				</div> <!--End of topbar-->
+			</div>
+		</div>
+		<div class="inner" id="greybottom">
+				<div class="inner">
+					<p id="up">CONTACT US</p>
+					<p id="down">We're here to help.</p>
+				</div>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="content">
+				<div class="left grid_8 col">
+					<h2>Get in touch</h2>
+					<img src="images/kudi.jpeg">
+					<p>Our friendly customer service representatives are committed to answering all your questions and meeting any need you may have. We would love to hear from you! Please fill out the form below so we may assist you.</p>
+					<div class="clear"></div>
+					
+					<h2>Send a letter</h2>
+					<form name="contactform" id="contactform"  action="thanks.html" onsubmit="return validf()" method="post">
+						<label for="uname">Name*</label>
+						<input id="uname" name="uname" class="inptext">
+						<label for="email">Email*</label>
+						<input type="email" name="email" class="inptext">
+						<label for="website">Website</label>
+						<input id="website" name="website" class="inptext">
+						<label for="Subject*">Subject*</label>
+						<input id="subject" name="subject" class="inptext">
+						<label for="message">Message*</label>
+						<textarea id="message" name="message" class="inptext" rows="6" cols="50" style="font-family: Arial;"></textarea>
+						<input type="submit" value="submit"  class="sub">
+
+					</form>
+					<div class="clear"></div>
+				</div>
+				
+				<div class="right grid_4 col">
+					<h2>Contact</h2>
+					<p style="margin:0;padding:0;">123 Example Way</p>
+					<p style="margin:0;padding:0;">San Francisco, CA 94108</p> 
+					<p  style="margin-top:0;padding-top:0;">USA </p>
+
+					<p style="margin:0;padding:0;">Phone: (888) 123-4567 </p>
+					<p style="margin:0;padding:0;">Fax: (887) 123-4567 </p>
+					<p style="margin:0;padding:0;">Email: contact@example.com </p>
+					<p style="margin:0;padding:0;">skype: dcodes.net </p>
+
+					<p>Mon to Fri: 8:00am - 5:00pm </p>
+					
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="outer">
+				<div class="bottom">
+					<div class="inner">
+						<div class="bottom"style="padding-bottom:30px;">
+							<div class="commit grid_3 col" style="margin-top: 40px;";
+>
+								<span>OUR COMMITMENT</span>
+								<p style="color: #fff;font-size: 12px;line-height: 1.5em;padding: 5px 0;font-family: Arial;">We strive to deliver a level of service that exceeds the expectations of our customers.</p>
+								<p style="color: #fff;font-size: 12px;line-height: 1.5em;font-family: Arial;">If you have any questions about our products or services, please do not hesitate to contact us. We have friendly, knowledgeable representatives available seven days a week to assist you.</p>
+							</div>
+							<div class="tweets grid_3 col" style="margin-top: 40px">
+								<span>LATEST TWEETS</span>
+								<p style="color: #fff;font-size: 12px;line-height: 1.5em;font-family: Arial;">loading ...</p>
+							</div>
+							<div class="subscribe grid_3 col" style="margin-top: 40px">
+								<span>KEEP UPDATED</span>
+								<p style="color: #fff;font-size: 12px;line-height: 1.5em;font-family: Arial;">Subscribe to our mailing list for offers, news updates and more!</p>
+								<div class="mailform">
+									<form action="#" method="post" target="_blank">
+										<input type="email" size="15" value="Your Email" name="EMAIL" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+									</form>
+								</div>
+							</div>
+							<div class="social grid_3 col" style="margin-top: 40px">
+								<span>STAY CONNECTED</span>
+								<div class="clear"></div>
+								<div  style="padding-top:30px;">
+									<img src="images/fblike.png" style="float:left;">
+									<span style="font-family: helvetica, arial, sans-serif;font-size: 11px;color:#000;">10,128 people like this. Be the first of your friends.</span>
+								</div>
+								<div class="buttons">
+									<a href="#"><img src="images/spacer.gif" alt="f" width="32" height="32" border="0" class="rss1"></a>
+									<a href="#"><img src="images/spacer.gif" alt="f" width="32" height="32" border="0" class="rss2"></a>
+									<a href="#"><img src="images/spacer.gif" alt="f" width="32" height="32" border="0" class="rss3"></a>
+									<a href="#"><img src="images/spacer.gif" alt="f" width="32" height="32" border="0" class="rss4"></a>
+									<a href="#"><img src="images/spacer.gif" alt="f" width="32" height="32" border="0" class="rss5"></a>
+									<a href="#"><img src="images/spacer.gif" alt="f" width="32" height="32" border="0" class="rss6"></a>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="outer">
+				<div class="footer">
+					<div class="inner">
+						<p style="font-family:Arial;">&copy; Copyright SiteName. All Rights Reserved. [Design: ThemeLand]</p>
+					</div>		
+				</div>
+			</div>
+	</body>
+</html>
